@@ -1,0 +1,28 @@
+﻿@model string
+
+
+@{
+    ViewBag.Title = "";
+    //Layout = null;
+}
+<html>
+<head>
+    <title>در حال انتقال به پرداخت</title>
+</head>
+<body>
+    <div style="display:none">
+        @Html.Raw(Model)
+    </div>
+    <h1 style="width:100%;height:100%;text-align:center;">
+        لطفا تا ارسال به پرداخت الکترونیکی شکیبا باشید.
+    </h1>
+</body>
+</html>
+
+
+@*@Scripts.Render("~/bundles/jquery")*@
+<script>
+    $(function(){
+       $('form').submit();
+    })
+</script>

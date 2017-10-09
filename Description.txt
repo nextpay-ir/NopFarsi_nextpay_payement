@@ -1,0 +1,9 @@
+Group: NopFarsi
+FriendlyName: پرداخت NextPay
+SystemName: NopFarsi.Payments.NextPay
+Version: 1.0
+SupportedVersions: 3.90
+Author: NopFarsi.ir
+DisplayOrder: 1
+FileName: NopFarsi.Payments.NextPay.dll
+Description: این پلاگین امکان پرداخت از طریق سامانه NextPay را فراهم می کند.
